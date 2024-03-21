@@ -23,7 +23,7 @@ float lost_threshold = 450;
 #define RIGHT_MOTOR_BACKWARD 25
 
 const char* ssid = "LF";
-const char* password = "Karolina2137";
+const char* password = "Pogodynka";
 
 AsyncUDP udp;
 QTRSensors qtr;
@@ -45,7 +45,7 @@ void setup()
 // Setup the QTR Sensor
 
   qtr.setTypeAnalog();
-  qtr.setSensorPins((const uint8_t[]){39, 34, 35, 32, 33, 36}, NUM_SENSORS);
+  qtr.setSensorPins((const uint8_t[]){36, 39, 34, 35, 32, 33}, NUM_SENSORS);
   qtr.setEmitterPin(EMITTER_PIN);
 
 // For debugging only
