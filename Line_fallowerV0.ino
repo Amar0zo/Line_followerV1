@@ -17,10 +17,10 @@ float lost_threshold = 450;
 // float TurnSpeed = 140;
 #define NUM_SENSORS  6    
 #define EMITTER_PIN   4     
-#define LEFT_MOTOR_FORWARD 12
-#define LEFT_MOTOR_BACKWARD 14
-#define RIGHT_MOTOR_FORWARD 25
-#define RIGHT_MOTOR_BACKWARD 26
+#define LEFT_MOTOR_FORWARD 14
+#define LEFT_MOTOR_BACKWARD 27
+#define RIGHT_MOTOR_FORWARD 26
+#define RIGHT_MOTOR_BACKWARD 25
 
 const char* ssid = "LF";
 const char* password = "Karolina2137";
